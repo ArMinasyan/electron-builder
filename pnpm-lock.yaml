@@ -335,8 +335,8 @@ importers:
         specifier: 4.0.3
         version: 4.0.3
       '@types/source-map-support':
-        specifier: 0.5.4
-        version: 0.5.4
+        specifier: 0.5.8
+        version: 0.5.8
 
   packages/builder-util-runtime:
     dependencies:
@@ -2894,8 +2894,8 @@ packages:
     resolution: {integrity: sha512-cJRQXpObxfNKkFAZbJl2yjWtJCqELQIdShsogr1d2MilP8dKD9TE/nEKHkJgUNHdGKCQaf9HbIynuV2csLGVLg==}
     dev: true
 
-  /@types/source-map-support@0.5.4:
-    resolution: {integrity: sha512-9zGujX1sOPg32XLyfgEB/0G9ZnrjthL/Iv1ZfuAjj8LEilHZEpQSQs1scpRXPhHzGYgWiLz9ldF1cI8JhL+yMw==}
+  /@types/source-map-support@0.5.8:
+    resolution: {integrity: sha512-u5nwLcaENciDwebPwwZb2AM1LvdlgFQfqCKxWQxcgNsQhUQciGuUnJ2LjGFAkInY2APXQzIypiUSa9zB6Epddg==}
     dependencies:
       source-map: 0.6.1
     dev: true
@@ -6184,6 +6184,7 @@ packages:
 
   /ieee754@1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
+    requiresBuild: true
     dev: false
 
   /ignore@5.2.4:
