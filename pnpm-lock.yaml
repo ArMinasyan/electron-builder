@@ -54,8 +54,8 @@ importers:
         specifier: 4.2.1
         version: 4.2.1(eslint-config-prettier@8.5.0)(eslint@8.26.0)(prettier@2.8.0)
       fs-extra:
-        specifier: 10.1.0
-        version: 10.1.0
+        specifier: 11.1.1
+        version: 11.1.1
       globby:
         specifier: 11.1.0
         version: 11.1.0
@@ -120,8 +120,8 @@ importers:
         specifier: ^0.4.0
         version: 0.4.0
       '@types/fs-extra':
-        specifier: 9.0.13
-        version: 9.0.13
+        specifier: 11.0.2
+        version: 11.0.2
       async-exit-hook:
         specifier: ^2.0.1
         version: 2.0.1
@@ -150,8 +150,8 @@ importers:
         specifier: ^4.0.0
         version: 4.0.0
       fs-extra:
-        specifier: ^10.1.0
-        version: 10.1.0
+        specifier: ^11.0.0
+        version: 11.1.1
       hosted-git-info:
         specifier: ^4.1.0
         version: 4.1.0
@@ -298,8 +298,8 @@ importers:
         specifier: ^4.3.4
         version: 4.3.4
       fs-extra:
-        specifier: ^10.1.0
-        version: 10.1.0
+        specifier: ^11.0.0
+        version: 11.1.1
       http-proxy-agent:
         specifier: ^5.0.0
         version: 5.0.0
@@ -326,8 +326,8 @@ importers:
         specifier: 6.0.2
         version: 6.0.2
       '@types/fs-extra':
-        specifier: ^9.0.11
-        version: 9.0.13
+        specifier: ^11.0.0
+        version: 11.0.2
       '@types/is-ci':
         specifier: 3.0.0
         version: 3.0.0
@@ -366,8 +366,8 @@ importers:
         specifier: workspace:*
         version: link:../builder-util-runtime
       fs-extra:
-        specifier: ^10.1.0
-        version: 10.1.0
+        specifier: ^11.0.0
+        version: 11.1.1
       iconv-lite:
         specifier: ^0.6.2
         version: 0.6.3
@@ -380,8 +380,8 @@ importers:
         version: 1.0.11
     devDependencies:
       '@types/fs-extra':
-        specifier: 9.0.13
-        version: 9.0.13
+        specifier: 11.0.2
+        version: 11.0.2
       '@types/js-yaml':
         specifier: 4.0.3
         version: 4.0.3
@@ -407,8 +407,8 @@ importers:
         specifier: workspace:*
         version: link:../dmg-builder
       fs-extra:
-        specifier: ^10.1.0
-        version: 10.1.0
+        specifier: ^11.0.0
+        version: 11.1.1
       is-ci:
         specifier: ^3.0.0
         version: 3.0.1
@@ -426,8 +426,8 @@ importers:
         version: 17.7.2
     devDependencies:
       '@types/fs-extra':
-        specifier: 9.0.13
-        version: 9.0.13
+        specifier: 11.0.2
+        version: 11.0.2
       '@types/is-ci':
         specifier: 3.0.0
         version: 3.0.0
@@ -447,8 +447,8 @@ importers:
         specifier: workspace:*
         version: link:../builder-util
       fs-extra:
-        specifier: ^10.1.0
-        version: 10.1.0
+        specifier: ^11.0.0
+        version: 11.1.1
     optionalDependencies:
       7zip-bin:
         specifier: ~5.1.1
@@ -458,8 +458,8 @@ importers:
         specifier: 5.3.1
         version: 5.3.1
       '@types/fs-extra':
-        specifier: 9.0.13
-        version: 9.0.13
+        specifier: 11.0.2
+        version: 11.0.2
 
   packages/electron-forge-maker-appimage:
     dependencies:
@@ -488,8 +488,8 @@ importers:
   packages/electron-publish:
     dependencies:
       '@types/fs-extra':
-        specifier: ^9.0.11
-        version: 9.0.13
+        specifier: ^11.0.0
+        version: 11.0.2
       builder-util:
         specifier: workspace:*
         version: link:../builder-util
@@ -500,8 +500,8 @@ importers:
         specifier: ^4.1.2
         version: 4.1.2
       fs-extra:
-        specifier: ^10.1.0
-        version: 10.1.0
+        specifier: ^11.0.0
+        version: 11.1.1
       lazy-val:
         specifier: ^1.0.5
         version: 1.0.5
@@ -519,8 +519,8 @@ importers:
         specifier: workspace:*
         version: link:../builder-util-runtime
       fs-extra:
-        specifier: ^10.1.0
-        version: 10.1.0
+        specifier: ^11.0.0
+        version: 11.1.1
       js-yaml:
         specifier: ^4.1.0
         version: 4.1.0
@@ -541,8 +541,8 @@ importers:
         version: 2.1.0
     devDependencies:
       '@types/fs-extra':
-        specifier: 9.0.13
-        version: 9.0.13
+        specifier: 11.0.2
+        version: 11.0.2
       '@types/js-yaml':
         specifier: 4.0.3
         version: 4.0.3
@@ -2743,10 +2743,17 @@ packages:
     resolution: {integrity: sha512-DCg+Ka+uDQ31lJ/UtEXVlaeV3d6t81gifaVWKJy4MYVVgvJttyX/viREy+If7fz+tK/gVxTGMtyrFPnm4gjrVA==}
     dev: true
 
+  /@types/fs-extra@11.0.2:
+    resolution: {integrity: sha512-c0hrgAOVYr21EX8J0jBMXGLMgJqVf/v6yxi0dLaJboW9aQPh16Id+z6w2Tx1hm+piJOLv8xPfVKZCLfjPw/IMQ==}
+    dependencies:
+      '@types/jsonfile': 6.1.2
+      '@types/node': 16.11.43
+
   /@types/fs-extra@9.0.13:
     resolution: {integrity: sha512-nEnwB++1u5lVDM2UI4c1+5R+FYaKfaAzS4OococimjVm3nQw3TuzH5UNsocrcTBbhnerblyHj4A49qXbIiZdpA==}
     dependencies:
       '@types/node': 16.11.43
+    dev: true
 
   /@types/glob@8.1.0:
     resolution: {integrity: sha512-IO+MJPVhoqz+28h1qLAcBEH2+xHMK6MTyHJc7MTnnYb6wsoLR29POVGJ7LycmVXIqyy/4/2ShP5sUwTXuOwb/w==}
@@ -2797,6 +2804,11 @@ packages:
   /@types/json-schema@7.0.12:
     resolution: {integrity: sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==}
     dev: true
+
+  /@types/jsonfile@6.1.2:
+    resolution: {integrity: sha512-8t92P+oeW4d/CRQfJaSqEwXujrhH4OEeHRjGU3v1Q8mUS8GPF3yiX26sw4svv6faL2HfBtGTe2xWIoVgN3dy9w==}
+    dependencies:
+      '@types/node': 16.11.43
 
   /@types/linkify-it@3.0.3:
     resolution: {integrity: sha512-pTjcqY9E4nOI55Wgpz7eiI8+LzdYnw3qxXCfHyBDdPbYvbyLgWLJGh8EdPvqawwMK1Uo1794AUkkR38Fr0g+2g==}
@@ -3980,6 +3992,7 @@ packages:
 
   /color-name@1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
+    requiresBuild: true
 
   /colorette@2.0.20:
     resolution: {integrity: sha512-IfEDxwoWIjkeXL1eXcDiow4UbKjhLdq6/EuSVR9GMN7KVH3r9gQ83e73hsz1Nd1T3ijd5xv1wcWRYO+D6kCI2w==}
@@ -5759,6 +5772,14 @@ packages:
       jsonfile: 6.1.0
       universalify: 2.0.0
 
+  /fs-extra@11.1.1:
+    resolution: {integrity: sha512-MGIE4HOvQCeUCzmlHs0vXpih4ysz4wg9qiSAu6cd42lVwPbTM1TjV7RusoyQqMmk/95gdQZX72u+YW+c3eEpFQ==}
+    engines: {node: '>=14.14'}
+    dependencies:
+      graceful-fs: 4.2.11
+      jsonfile: 6.1.0
+      universalify: 2.0.0
+
   /fs-extra@7.0.1:
     resolution: {integrity: sha512-YJDaCJZEnBmcbw13fvdAM9AwNOJwOzrE4pqMqBq5nFiEqXUqHwlK4B+3pUw6JNvfSPtX05xFHtYy/1ni01eGCw==}
     engines: {node: '>=6 <7 || >=8'}
@@ -6184,6 +6205,7 @@ packages:
 
   /ieee754@1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
+    requiresBuild: true
     dev: false
 
   /ignore@5.2.4:
