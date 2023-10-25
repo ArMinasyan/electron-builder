@@ -1,3 +1,12 @@
+# [](https://github.com/electron-userland/electron-builder/compare/v24.8.0...v) (2023-10-25)
+
+
+### Bug Fixes
+
+* **mac:** don't notarize mas builds ([#7838](https://github.com/electron-userland/electron-builder/issues/7838)) ([87eae1c](https://github.com/electron-userland/electron-builder/commit/87eae1cc2f85f034f1543840b20d56e89a23c0df))
+
+
+
 # [](https://github.com/electron-userland/electron-builder/compare/v24.7.0...v) (2023-10-19)
 
 
